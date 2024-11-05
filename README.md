@@ -46,12 +46,12 @@ lib/
 3. Papan Skor: Menampilkan peringkat dan skor pengguna.
 4. Layar Splash: Menyapa pengguna saat pertama kali membuka aplikasi.
 
-##Demo APK
+## Demo APK
 
 
 https://github.com/user-attachments/assets/f8f0c2f4-aabd-4c28-bba9-2a6d82621456
 
-##screenshoot
+## screenshoot
 ![Screenshot_20241105-142136](https://github.com/user-attachments/assets/fe13ce22-7b72-438b-adda-e8f8aa4d1c4c)
 ![Screenshot_20241105-142200](https://github.com/user-attachments/assets/03b3829c-0a80-453e-a08d-42706b5ebc1e)
 ![Screenshot_20241105-142142](https://github.com/user-attachments/assets/bb2ac5a1-5171-41c2-b34e-114d817483ff)
