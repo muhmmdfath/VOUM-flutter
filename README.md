@@ -34,7 +34,7 @@ lib/
 1. Pastikan Flutter telah diinstal pada komputer Anda.
 2. Klon repositori ini: 
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/muhmmdfath/VOUM-flutter.git
 3. Jalankan perintah berikut di dalam direktori proyek
    ```bash
    flutter pub get
