@@ -1,19 +1,68 @@
-# helloworld
-
+# VOUM
 A new Flutter project. Design from dribbble.com
 https://dribbble.com/shots/20078554-VOUM-mobile-app
+
+
 ![original-906949544d273a2b332c02df5f568537](https://github.com/user-attachments/assets/112ec172-01a8-41a3-9705-30266596778d)
 
 
-## Getting Started
+# Mobile Application with Flutter
 
-This project is a starting point for a Flutter application.
+## Overview
+Ini adalah aplikasi mobile berbasis Flutter dengan fitur-fitur untuk mengelola halaman utama kebugaran, profil pengguna, papan skor, dan layar splash. Aplikasi ini dirancang untuk memberikan pengalaman yang lancar dan responsif bagi pengguna.
 
-A few resources to get you started if this is your first Flutter project:
+## Struktur Proyek
+Struktur proyek aplikasi ini terorganisasi seperti berikut:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+lib/
+│
+├── screens/
+│   ├── fitess_home_page.dart     # Halaman utama aplikasi untuk kebugaran
+│   ├── ProfilePage.dart          # Halaman profil pengguna
+│   ├── ScoreboardPage.dart       # Halaman papan skor
+│   └── splash_screen.dart        # Layar splash awal
+│
+└── main.dart                     # File utama aplikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Penjelasan File
+- **main.dart**: File entry point aplikasi yang mengatur rute dan inisialisasi.
+- **fitess_home_page.dart**: Berisi logika dan tampilan untuk halaman utama kebugaran.
+- **ProfilePage.dart**: Berisi logika dan tampilan untuk halaman profil pengguna.
+- **ScoreboardPage.dart**: Berisi logika dan tampilan untuk halaman papan skor.
+- **splash_screen.dart**: Layar splash yang ditampilkan saat aplikasi dibuka.
+
+## Screenshot
+Berikut adalah tampilan struktur proyek:
+
+![Project Structure](./path/to/your/screenshot.png)
+
+> **Catatan**: Gantilah `./path/to/your/screenshot.png` dengan jalur ke gambar screenshot Anda.
+
+## Instalasi
+1. Pastikan Flutter telah diinstal pada komputer Anda.
+2. Klon repositori ini: 
+   ```bash
+   git clone https://github.com/username/repo-name.git
+3. Jalankan perintah berikut di dalam direktori proyek
+   ```bash
+   flutter pub get
+   flutter run
+
+## Fitur Utama
+1. Halaman Utama Kebugaran: Menampilkan informasi kebugaran terkini.
+2. Profil Pengguna: Memungkinkan pengguna untuk melihat dan mengedit informasi profil.
+3. Papan Skor: Menampilkan peringkat dan skor pengguna.
+4. Layar Splash: Menyapa pengguna saat pertama kali membuka aplikasi.
+
+##Demo APK
+
+
+https://github.com/user-attachments/assets/f8f0c2f4-aabd-4c28-bba9-2a6d82621456
+
+##screenshoot
+![Screenshot_20241105-142136](https://github.com/user-attachments/assets/fe13ce22-7b72-438b-adda-e8f8aa4d1c4c)
+![Screenshot_20241105-142200](https://github.com/user-attachments/assets/03b3829c-0a80-453e-a08d-42706b5ebc1e)
+![Screenshot_20241105-142142](https://github.com/user-attachments/assets/bb2ac5a1-5171-41c2-b34e-114d817483ff)
+![Screenshot_20241105-142204](https://github.com/user-attachments/assets/c7ef084c-9c06-4318-8ce4-2d78889c02ff)
+![Screenshot_20241105-142208](https://github.com/user-attachments/assets/4c267411-08ff-4659-acb0-37834ed262ff)
