@@ -13,7 +13,7 @@ Ini adalah aplikasi mobile berbasis Flutter dengan fitur-fitur untuk mengelola h
 
 ## Struktur Proyek
 Struktur proyek aplikasi ini terorganisasi seperti berikut:
-
+```
 lib/
 └── screens/
     ├── fitness_home_page.dart
@@ -21,7 +21,7 @@ lib/
     ├── scoreboard_page.dart
     └── splash_screen.dart
 └── main.dart
-
+```
 
 ## Penjelasan File
 - **main.dart**: File entry point aplikasi yang mengatur rute dan inisialisasi.
