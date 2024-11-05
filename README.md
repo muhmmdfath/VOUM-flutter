@@ -14,15 +14,7 @@ Ini adalah aplikasi mobile berbasis Flutter dengan fitur-fitur untuk mengelola h
 ## Struktur Proyek
 Struktur proyek aplikasi ini terorganisasi seperti berikut:
 
-lib/
-│
-├── screens/
-│   ├── fitess_home_page.dart     # Halaman utama aplikasi untuk kebugaran
-│   ├── ProfilePage.dart          # Halaman profil pengguna
-│   ├── ScoreboardPage.dart       # Halaman papan skor
-│   └── splash_screen.dart        # Layar splash awal
-│
-└── main.dart                     # File utama aplikasi
+fitness-app/ │ ├── lib/ │ ├── screens/ │ │ ├── fitness_home_page.dart # Halaman utama aplikasi untuk kebugaran │ │ ├── profile_page.dart # Halaman profil pengguna │ │ ├── scoreboard_page.dart # Halaman papan skor │ │ └── splash_screen.dart # Layar splash awal │ │ │ └── main.dart # File utama aplikasi │ ├── assets/ # Folder untuk aset seperti gambar dan ikon │ ├── images/ │ └── icons/ │ ├── .gitignore # File untuk mengabaikan file yang tidak perlu saat commit ├── README.md # Deskripsi dan dokumentasi aplikasi └── pubspec.yaml # File konfigurasi untuk dependensi Flutter
 
 
 ## Penjelasan File
@@ -31,13 +23,6 @@ lib/
 - **ProfilePage.dart**: Berisi logika dan tampilan untuk halaman profil pengguna.
 - **ScoreboardPage.dart**: Berisi logika dan tampilan untuk halaman papan skor.
 - **splash_screen.dart**: Layar splash yang ditampilkan saat aplikasi dibuka.
-
-## Screenshot
-Berikut adalah tampilan struktur proyek:
-
-![Project Structure](./path/to/your/screenshot.png)
-
-> **Catatan**: Gantilah `./path/to/your/screenshot.png` dengan jalur ke gambar screenshot Anda.
 
 ## Instalasi
 1. Pastikan Flutter telah diinstal pada komputer Anda.
